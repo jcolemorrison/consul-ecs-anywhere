@@ -1,0 +1,17 @@
+[
+  {
+    "logConfiguration": null,
+    "entryPoint": null,
+    "portMappings": [
+      {
+        "hostPort": 80,
+        "protocol": "tcp",
+        "containerPort": 80
+      }
+    ],
+    "cpu": 256,
+    "memory": 256,
+    "image": "public.ecr.aws/nginx/nginx:latest",
+    "name": "nginx"
+  }
+]
